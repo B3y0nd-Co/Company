@@ -47,3 +47,49 @@ Dating and community modes remain part of the long-term roadmap.
 **Decision:** School comes first.
 
 **Reason:** The company will grow through steady, consistent progress rather than unrealistic deadlines.
+
+
+
+
+
+## July 18, 2026
+
+### Decision #006 — Engineering Development Has Begun
+
+**Decision:** Begin Android-first prototype development for B3YOND Co.'s real-world networking product.
+
+**Reason:** Android provides a practical platform for testing Bluetooth Low Energy discovery and advertising across physical devices.
+
+---
+
+### Decision #007 — Use Physical Devices for Bluetooth Validation
+
+**Decision:** Bluetooth Low Energy advertising and discovery must be validated on physical Android phones.
+
+**Reason:** Android emulators may not accurately support or represent BLE advertising and nearby-device behavior.
+
+---
+
+### Decision #008 — Support Multiple Android Permission Models
+
+**Decision:** The application will support both the legacy Android permission model and the Android 12+ Nearby Devices permission model.
+
+**Reason:** The initial test devices run Android 11 and Android 16, and the product should handle both safely.
+
+---
+
+### Decision #009 — Permission Failures Must Be Safe
+
+**Decision:** Missing or denied Bluetooth permissions must disable affected functionality without crashing the application.
+
+**Reason:** Privacy, reliability, and understandable permission handling are core product requirements.
+
+---
+
+### Decision #010 — Product Name Remains Unresolved
+
+**Decision:** Continue development without locking the final public product name.
+
+**Reason:** The underlying product and technical prototype can progress while naming, trademark, domain, and competitor research continue.
+
+The Android prototype will temporarily use a neutral internal engineering identity.
